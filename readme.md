@@ -15,21 +15,14 @@
 </div>
 
 ## Information
-dbi.js is an API wrapper for [Discord Bot Index](https://discordbotindex.com) using [Node.JS](https://nodejs.org)
-to make it easier to use it's API.
+dbi.js is an API wrapper for [Discord Bot Index](https://discordbotindex.com) using [Node.JS](https://nodejs.org) to make it easier to use it's API.
 
 ## Installation
 #### Requirements
 - [Node.JS](https://nodejs.org) >= 8.0.0
 - [Yarn](https://yarnpkg.com) (optional) better performance
 
-Run `yarn add dbi.js` or `npm i dbi.js` to install, examples are below
+Run `yarn add dbi.js` or `npm i dbi.js` to install.
 
-## Example usage
-##### Posting your bot's guilds
-```js
-const { Client: dbiClient } = require('../');                                               // Declaring dbi.js
-const Client = new dbiClient('< Your DBI Token Here >', { id: '< Your Bot\'s ID Here >' }); // Creating your DBI client
-Client.postStats(11).then(console.log);                                                     // Posting your guild count to DBI and logging all results
-```
-More examples can be found inside of the `/examples` directory
+## Examples
+Examples can be found inside of the `/examples` directory
